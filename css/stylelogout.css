@@ -8,7 +8,6 @@ body {
 .fluid-container .left,.fluid-container .right{
     width: 50vw;
     height: 95vh;
-    overflow: hidden;
     margin-right: 30px;
     display: flex;
     flex-direction: column;
@@ -22,11 +21,11 @@ body {
     .fluid-container .left,.fluid-container .right{
         width: 100vw;
         margin-right: 0px;
-        /* height: 40vh; */
+        height: auto;
     }
   }
 .fluid-container .left{
-    background-image: url('../images/login.png');
+    background: url('../images/login.png') no-repeat center center/cover;
 }
 .icon{
     color: white;
