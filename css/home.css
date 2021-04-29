@@ -403,9 +403,11 @@ body {
         width: 70%;
         height: 100vh;
         position: fixed;
-        left: 100%;
+        left: -100%;
         z-index: 1000;
+transition:.5s;
         background-color: white;
+
     }
     .respleft.active{
         left: 0%;
