@@ -405,7 +405,7 @@ body {
         position: fixed;
         left: -100%;
         z-index: 1000;
-transition:.5s;
+        transition: .5s;
         background-color: white;
 
     }
